@@ -1,0 +1,75 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+}
+
+.half-width{
+    width: 50%;
+    padding:2%;
+}
+.flexible-container{
+    display: flex;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.half-width img{
+    width: 80%;
+}
+span{
+    color: orangered;
+}
+.link-up{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+
+}
+.wlc{
+    font-size: 50px;
+}
+
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h3{
+    color:orangered;
+}
+
+.new-width{
+    box-shadow: 5px 7px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5px;
+    padding-right:5px ;
+}
+
+
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+
+
+footer p{
+    text-align: center;
+}
